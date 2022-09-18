@@ -813,6 +813,7 @@ C:\Projects\Student Management Application\StudentManagementSolution\StudentMana
 C:\Projects\Student Management Application\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\refint\StudentManagement.Web.dll
 C:\Projects\Student Management Application\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\StudentManagement.Web.pdb
 C:\Projects\Student Management Application\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\ref\StudentManagement.Web.dll
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.7.vthb3kf4vs.js
@@ -1030,7 +1031,6 @@ C:\Projects\Student Management Application\StudentManagementApplication\StudentM
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Net.Requests.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
