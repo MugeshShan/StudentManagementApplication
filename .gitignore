@@ -44,6 +44,7 @@ StudentManagementApplication/StudentManagementSolution/StudentManagement.Web/obj
 StudentManagementApplication/StudentManagementSolution/StudentManagement.Web/bin/
 StudentManagementApplication/StudentManagementSolution/StudentManagement.Api/obj/
 StudentManagementApplication/StudentManagementSolution/StudentManagement.Api/bin/
+StudentManagementApplication/StudentManagementSolution/.vs/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
