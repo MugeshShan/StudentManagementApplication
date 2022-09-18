@@ -25,7 +25,11 @@ namespace StudentManagement.Api.Extensions
                 RollNumber = student.RollNumber,
                 Name = student.Name,
                 Class = student.Class,
-                Dob = student.Dob
+                Dob = student.Dob,
+                FathersName = student.FathersName,
+                Email = student.Email,
+                Address = student.Address, 
+                PhoneNumber = student.PhoneNumber
             };
         }
 
