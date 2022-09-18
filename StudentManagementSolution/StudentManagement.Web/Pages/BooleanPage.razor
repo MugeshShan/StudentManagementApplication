@@ -1,4 +1,4 @@
-﻿https://localhost:7269/
+﻿@page "/booleanPage"
 
 <div class="form-group col-md-2">
     <label>Boolean Selection Page</label>
@@ -14,8 +14,13 @@
     </div>
 </div>
 
-
-@if (YesPressed)
+@if(YesPressed == null)
+{
+    <div class="form-group col-md-2">
+        <label>Clicked Nothing</label>
+    </div>
+}
+else if (Convert.ToBoolean(YesPressed))
 {
     <div class="form-group col-md-2">
         <label>Clicked Yes</label>
@@ -31,7 +36,7 @@ else
 @code {
 
 
-    private Boolean YesPressed = false;
+    private Boolean? YesPressed = null;
 
     public void Yes()
     {

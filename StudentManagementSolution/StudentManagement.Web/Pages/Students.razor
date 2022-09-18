@@ -32,8 +32,20 @@ else
     }
     else
     {
-        <RadioButton Name="contact" Value="GetStudentById" Checked="true" ClickMode="ClickMode.Hover">E-mail</RadioButton>
-        <RadioButton Name="contact" Value="GetMarksById"  ClickMode="ClickMode.Hover">Phone</RadioButton>
+        <div class="mb-3">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="id" id="details" value="1"/>
+                <label class="form-check-label" for="details-id">Details By Id</label>
+            </div>
+             <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="id" id="marks" value="2"/>
+                <label class="form-check-label" for="details-id">Marks By Id</label>
+            </div>
+        </div>
+        <div class="mb-3">
+            <input class="form-control" type="text" name="marks-id" id="id" placeholder="Please enter roll number"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Get</button>
         <table class="table">
             <thead>
                 <tr>
