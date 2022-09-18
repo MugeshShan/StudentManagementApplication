@@ -40,6 +40,10 @@ bin/
 obj/
 **/bin/*
 **/obj/*
+StudentManagementSolution/StudentManagement.Web/obj/
+StudentManagementSolution/StudentManagement.Web/bin/
+StudentManagementSolution/StudentManagement.Api/obj/
+StudentManagementSolution/StudentManagement.Api/bin/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
