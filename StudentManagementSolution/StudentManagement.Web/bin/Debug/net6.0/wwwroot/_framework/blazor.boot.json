@@ -197,14 +197,14 @@
       "netstandard.dll": "sha256-CvlfDmNgFRYT7l\/xZKu91FlbTFyLG\/5cH7YX63k9ghE=",
       "System.Private.CoreLib.dll": "sha256-aF4imeOpA59D6F5qCLabzkeY7MvRZzNYzavhB\/bdxvM=",
       "StudentManagement.Models.dll": "sha256-bRl5fG7BWM5U+AHde1GhxDVwLM5GWo7LmMeCCnLGYXY=",
-      "StudentManagement.Web.dll": "sha256-UM2HMwBbuiQrgFTLTai0wUHrL0ni\/oxyA4QmSi+hy0M="
+      "StudentManagement.Web.dll": "sha256-GOCAvhcpQNudVpu\/AkQR8QJ02qGnkqKLhcs3K9G6GCI="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "StudentManagement.Models.pdb": "sha256-iftPqmet18cfslw3bkkeFu2oHanIObj0MEXFF7kG3Cw=",
-      "StudentManagement.Web.pdb": "sha256-uPAC+vUUHTpLxCPS1yaqIjX7iXi9ALrZzWxAWNx9acU="
+      "StudentManagement.Web.pdb": "sha256-hk+tNY+Z0RQKckFt1RFLvY50A5Bw5G3Z3nZ8zTfi2mk="
     },
     "runtime": {
       "dotnet.6.0.7.vthb3kf4vs.js": "sha256-pvJcJ6jtDSfxgXm03QYRTm4aAi9PSzMSJODReHtvASY=",

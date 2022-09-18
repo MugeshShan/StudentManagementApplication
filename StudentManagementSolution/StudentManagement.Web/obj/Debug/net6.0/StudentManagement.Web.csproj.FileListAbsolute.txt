@@ -813,8 +813,6 @@ C:\Projects\Student Management Application\StudentManagementSolution\StudentMana
 C:\Projects\Student Management Application\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\refint\StudentManagement.Web.dll
 C:\Projects\Student Management Application\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\StudentManagement.Web.pdb
 C:\Projects\Student Management Application\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\ref\StudentManagement.Web.dll
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.7.vthb3kf4vs.js.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.7.vthb3kf4vs.js
@@ -1141,6 +1139,7 @@ C:\Projects\Student Management Application\StudentManagementApplication\StudentM
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\StudentManagement.Models.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
@@ -1148,6 +1147,7 @@ C:\Projects\Student Management Application\StudentManagementApplication\StudentM
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Net.Security.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.7.vthb3kf4vs.js.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.ValueTuple.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Timer.dll.gz
