@@ -13,7 +13,7 @@ namespace StudentManagement.Web.Services
             this.httpClient = httpClient;
         }
 
-        public Task<StudentDto> GetStudentDetailsById(int? studentId)
+        public Task<StudentDto> GetStudentDetailsById(string studentId)
         {
             throw new NotImplementedException();
         }

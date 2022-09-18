@@ -6,7 +6,7 @@ namespace StudentManagement.Web.Services.Contracts
     {
         Task<IEnumerable<StudentDto>> GetStudentsDetailsInfo();
 
-        Task<StudentDto> GetStudentDetailsById(int? studentId);
+        Task<StudentDto> GetStudentDetailsById(string studentId);
 
         Task<StudentMarkUpdateDto> GetStudentMarksById(int? studentId);
     }
