@@ -38,36 +38,37 @@ namespace StudentManagement.Api.Data
 
             modelBuilder.Entity<StudentMarks>().HasData(new StudentMarks
             {
-                RollNumber = "11A123",
+                RollNumber = "8A123",
                 Id = 1,
-                English = 74,
-                Maths = 98,
-                Science = 99,
-                Social = 85,
-                TotalMarks = 445
+                Tamil = 95,
+                English = 95,
+                Maths = 95,
+                Science = 95,
+                Social = 95,
+                TotalMarks = 475
             });
             modelBuilder.Entity<StudentMarks>().HasData(new StudentMarks
             {
-                RollNumber = "11A124",
+                RollNumber = "9A124",
                 Id=2,
-                Tamil = 89,
-                English = 74,
-                Maths = 98,
-                Science = 99,
-                Social = 85,
-                TotalMarks = 445
+                Tamil = 90,
+                English = 90,
+                Maths = 90,
+                Science = 90,
+                Social = 90,
+                TotalMarks = 450
             });
 
             modelBuilder.Entity<StudentMarks>().HasData(new StudentMarks
             {
                 RollNumber = "11A125",
                 Id=3,
-                Tamil = 89,
-                English = 74,
-                Maths = 98,
-                Science = 99,
+                Tamil = 85,
+                English = 85,
+                Maths = 85,
+                Science = 85,
                 Social = 85,
-                TotalMarks = 445
+                TotalMarks = 425
             });
         }
 
