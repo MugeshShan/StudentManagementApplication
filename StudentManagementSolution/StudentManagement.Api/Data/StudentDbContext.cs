@@ -16,24 +16,24 @@ namespace StudentManagement.Api.Data
 
             modelBuilder.Entity<Student>().HasData(new Student
             {
-                RollNumber = "11A123",
+                RollNumber = "8A123",
                 Name = "Mugesh",
-                Class = "XI",
-                Dob = "11-09-1996"
+                Class = "VIII",
+                Dob = "11-09-2002"
             });
             modelBuilder.Entity<Student>().HasData(new Student
             {
-                RollNumber = "11A124",
+                RollNumber = "9A124",
                 Name = "Prakash",
-                Class = "XI",
-                Dob = "11-09-1996"
+                Class = "IX",
+                Dob = "05-09-2001"
             });
             modelBuilder.Entity<Student>().HasData(new Student
             {
                 RollNumber = "11A125",
                 Name = "Sagar",
                 Class = "XI",
-                Dob = "11-09-1996"
+                Dob = "17-12-2000"
             });
 
             modelBuilder.Entity<StudentMarks>().HasData(new StudentMarks

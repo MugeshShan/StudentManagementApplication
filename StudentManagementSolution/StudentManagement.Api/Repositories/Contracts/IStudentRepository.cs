@@ -6,8 +6,8 @@ namespace StudentManagement.Api.Repositories.Contract
     {
         Task<IEnumerable<Student>> GetAllStudentsInfo();
 
-        Task<Student> GetStudentDetailsById(int? studentId);
+        Task<Student> GetStudentDetailsById(string studentId);
 
-        Task<Student> GetStudentMarksById(int? studentId);
+        Task<StudentMarks> GetStudentMarksById(string studentId);
     }
 }

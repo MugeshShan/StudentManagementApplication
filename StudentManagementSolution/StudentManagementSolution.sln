@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Web", "StudentManagement.Web\StudentManagement.Web.csproj", "{5F391D48-43AE-4775-AA07-5B1F3FD0D415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagement.Web", "StudentManagement.Web\StudentManagement.Web.csproj", "{5F391D48-43AE-4775-AA07-5B1F3FD0D415}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Models", "StudentManagement.Models\StudentManagement.Models.csproj", "{1AAE1826-9BB9-46BF-8C83-5895833CC888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagement.Models", "StudentManagement.Models\StudentManagement.Models.csproj", "{1AAE1826-9BB9-46BF-8C83-5895833CC888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Api", "StudentManagement.Api\StudentManagement.Api.csproj", "{73BD12FB-D277-45B3-9503-2758C08EA715}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagement.Api", "StudentManagement.Api\StudentManagement.Api.csproj", "{73BD12FB-D277-45B3-9503-2758C08EA715}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

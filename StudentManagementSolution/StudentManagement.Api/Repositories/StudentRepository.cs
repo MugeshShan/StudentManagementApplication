@@ -20,14 +20,18 @@ namespace StudentManagement.Api.Repositories
             return students;
         }
 
-        public Task<Student> GetStudentDetailsById(int? studentId)
+        public async Task<Student> GetStudentDetailsById(string studentId)
         {
-            throw new NotImplementedException();
+            var student = await studentDbContext.Students.SingleOrDefaultAsync(x=> x.RollNumber == studentId);
+
+            return student;
         }
 
-        public Task<Student> GetStudentMarksById(int? studentId)
+        public async Task<StudentMarks> GetStudentMarksById(string studentId)
         {
-            throw new NotImplementedException();
+            var student = await studentDbContext.StudentMarks.SingleOrDefaultAsync(x => x.RollNumber == studentId);
+
+            return student;
         }
     }
 }

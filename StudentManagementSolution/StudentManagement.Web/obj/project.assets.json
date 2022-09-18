@@ -390,6 +390,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "StudentManagement.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StudentManagement.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudentManagement.Models.dll": {}
+        }
       }
     },
     "net6.0/browser-wasm": {
@@ -774,6 +784,16 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "StudentManagement.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StudentManagement.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudentManagement.Models.dll": {}
         }
       }
     }
@@ -1537,12 +1557,18 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "StudentManagement.Models/1.0.0": {
+      "type": "project",
+      "path": "../StudentManagement.Models/StudentManagement.Models.csproj",
+      "msbuildProject": "../StudentManagement.Models/StudentManagement.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.7",
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.7"
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.7",
+      "StudentManagement.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1576,7 +1602,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Models\\StudentManagement.Models.csproj": {
+              "projectPath": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Models\\StudentManagement.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -17,5 +17,30 @@ namespace StudentManagement.Api.Extensions
                         }
                    );
         }
+
+        public static StudentDto ConvertToDto(this Student student)
+        {
+            return new StudentDto
+            {
+                RollNumber = student.RollNumber,
+                Name = student.Name,
+                Class = student.Class,
+                Dob = student.Dob
+            };
+        }
+
+        public static StudentMarkUpdateDto ConvertToDto(this StudentMarks student)
+        {
+            return new StudentMarkUpdateDto
+            {
+                RollNumber = student.RollNumber,
+                Tamil = student.Tamil,
+                English = student.English,
+                Maths = student.Maths,
+                Science = student.Science,
+                Social = student.Social,
+                TotalMarks = student.TotalMarks
+            };
+        }
     }
 }

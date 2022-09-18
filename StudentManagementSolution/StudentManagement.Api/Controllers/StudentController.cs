@@ -40,5 +40,55 @@ namespace StudentManagement.Api.Controllers
                                "Error retrieving data from the database");
             }
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<StudentDto>> GetStudentInfoById(string id)
+        {
+            try
+            {
+                var student = await this.studentRepository.GetStudentDetailsById(id);
+
+                if(student == null)
+                {
+                    return BadRequest();
+                }
+                else
+                {
+                    var studentDto = student.ConvertToDto();
+
+                    return Ok(studentDto);
+                }
+            }
+            catch(Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                                "Error retrieving data from the database");
+            }
+        }
+
+        [HttpGet("{id}/marks")]
+        public async Task<ActionResult<StudentDto>> GetStudentMarksById(string id)
+        {
+            try
+            {
+                var student = await this.studentRepository.GetStudentMarksById(id);
+
+                if (student == null)
+                {
+                    return BadRequest();
+                }
+                else
+                {
+                    var studentDto = student.ConvertToDto();
+
+                    return Ok(studentDto);
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                                "Error retrieving data from the database");
+            }
+        }
     }
 }

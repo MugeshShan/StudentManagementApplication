@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dgaYyh/mlrkxeauxhrmdM//lJReEGxd3ialndPyYj+c=",
+  "Hash": "bwSYPlFXU29nO3tLWV5FyHvvRUMLcXLY4b+hQsO9fOg=",
   "Source": "StudentManagement.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -661,6 +661,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\mugesh.shanmugavel\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.7\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StudentManagement.Models.dll",
+      "SourceId": "StudentManagement.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/StudentManagement.Models.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Models\\bin\\Debug\\net6.0\\StudentManagement.Models.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StudentManagement.Models.pdb",
+      "SourceId": "StudentManagement.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/StudentManagement.Models.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Models\\bin\\Debug\\net6.0\\StudentManagement.Models.pdb"
     },
     {
       "Identity": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StudentManagement.Web.dll",
@@ -5253,6 +5287,23 @@
       "OriginalItemSpec": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.Xml.Linq.dll"
     },
     {
+      "Identity": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\obj\\Debug\\net6.0\\build-gz\\lwTx9xHd.gz",
+      "SourceId": "StudentManagement.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/StudentManagement.Models.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StudentManagement.Models.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StudentManagement.Models.pdb"
+    },
+    {
       "Identity": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\obj\\Debug\\net6.0\\build-gz\\m5iFDnkI.gz",
       "SourceId": "StudentManagement.Web",
       "SourceType": "Computed",
@@ -5523,6 +5574,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Tasks.Dataflow.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\obj\\Debug\\net6.0\\build-gz\\nYlfIIrg.gz",
+      "SourceId": "StudentManagement.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/StudentManagement.Models.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StudentManagement.Models.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\StudentManagement.Models.dll"
     },
     {
       "Identity": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Web\\obj\\Debug\\net6.0\\build-gz\\o+2jZW+7.gz",

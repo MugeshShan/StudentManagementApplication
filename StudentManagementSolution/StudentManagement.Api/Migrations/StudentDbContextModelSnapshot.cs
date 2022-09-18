@@ -45,23 +45,23 @@ namespace StudentManagement.Api.Migrations
                     b.HasData(
                         new
                         {
-                            RollNumber = "11A123",
-                            Class = "XI",
-                            Dob = "11-09-1996",
+                            RollNumber = "8A123",
+                            Class = "VIII",
+                            Dob = "11-09-2002",
                             Name = "Mugesh"
                         },
                         new
                         {
-                            RollNumber = "11A124",
-                            Class = "XI",
-                            Dob = "11-09-1996",
+                            RollNumber = "9A124",
+                            Class = "IX",
+                            Dob = "05-09-2001",
                             Name = "Prakash"
                         },
                         new
                         {
                             RollNumber = "11A125",
                             Class = "XI",
-                            Dob = "11-09-1996",
+                            Dob = "17-12-2000",
                             Name = "Sagar"
                         });
                 });

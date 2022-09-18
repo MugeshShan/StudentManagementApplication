@@ -1,0 +1,59 @@
+﻿@page "/"
+@inherits StudentsBase
+
+@if(Students == null && ErrorMessage == null)
+{
+    <DisplaySpinner/>
+
+}
+else if(ErrorMessage != null)
+{
+    <DisplayError ErrorMessage="@ErrorMessage"></DisplayError>
+}
+else
+{
+    var studentCount = Students.Count();
+    <table width="100%" style="background:#0A2464;color:honeydew">
+        <tr>
+            <td width="20">&nbsp;</td>
+            <td>
+                <h2>Student Details</h2>
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+
+    @if (Students == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Student Name</th>
+                    <th>Class</th>
+                    <th>DOB</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var std in Students)
+                {
+                    <tr>
+                        <td>@std.RollNumber</td>
+                        <td>@std.Name</td>
+                        <td>@std.Class</td>
+                        <td>@std.Dob</td>
+                        @*<td><button class="btn btn-primary" onclick="@(async () => await EditStudent(@std.StdId))" style="width:110px;">Edit</button></td>*@
+                        @*<td><button class="btn btn-danger" onclick="@(async () => await DeleteStudent(@std.StdId))">Delete</button></td>*@
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
