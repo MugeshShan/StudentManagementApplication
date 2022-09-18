@@ -34,27 +34,9 @@ namespace StudentManagement.Api.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("English")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Maths")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Science")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Social")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Tamil")
-                        .HasColumnType("int");
-
-                    b.Property<int>("TotalMarks")
-                        .HasColumnType("int");
 
                     b.HasKey("RollNumber");
 
@@ -66,39 +48,21 @@ namespace StudentManagement.Api.Migrations
                             RollNumber = "11A123",
                             Class = "XI",
                             Dob = "11-09-1996",
-                            English = 74,
-                            Maths = 98,
-                            Name = "Mugesh",
-                            Science = 99,
-                            Social = 85,
-                            Tamil = 89,
-                            TotalMarks = 445
+                            Name = "Mugesh"
                         },
                         new
                         {
                             RollNumber = "11A124",
                             Class = "XI",
                             Dob = "11-09-1996",
-                            English = 74,
-                            Maths = 98,
-                            Name = "Prakash",
-                            Science = 99,
-                            Social = 85,
-                            Tamil = 89,
-                            TotalMarks = 445
+                            Name = "Prakash"
                         },
                         new
                         {
                             RollNumber = "11A125",
                             Class = "XI",
                             Dob = "11-09-1996",
-                            English = 74,
-                            Maths = 98,
-                            Name = "Sagar",
-                            Science = 99,
-                            Social = 85,
-                            Tamil = 89,
-                            TotalMarks = 445
+                            Name = "Sagar"
                         });
                 });
 

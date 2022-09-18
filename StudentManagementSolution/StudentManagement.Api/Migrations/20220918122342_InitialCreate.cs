@@ -34,13 +34,7 @@ namespace StudentManagement.Api.Migrations
                     RollNumber = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Class = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Dob = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Tamil = table.Column<int>(type: "int", nullable: false),
-                    English = table.Column<int>(type: "int", nullable: false),
-                    Maths = table.Column<int>(type: "int", nullable: false),
-                    Science = table.Column<int>(type: "int", nullable: false),
-                    Social = table.Column<int>(type: "int", nullable: false),
-                    TotalMarks = table.Column<int>(type: "int", nullable: false)
+                    Dob = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -59,12 +53,12 @@ namespace StudentManagement.Api.Migrations
 
             migrationBuilder.InsertData(
                 table: "Students",
-                columns: new[] { "RollNumber", "Class", "Dob", "English", "Maths", "Name", "Science", "Social", "Tamil", "TotalMarks" },
+                columns: new[] { "RollNumber", "Class", "Dob", "Name" },
                 values: new object[,]
                 {
-                    { "11A123", "XI", "11-09-1996", 74, 98, "Mugesh", 99, 85, 89, 445 },
-                    { "11A124", "XI", "11-09-1996", 74, 98, "Prakash", 99, 85, 89, 445 },
-                    { "11A125", "XI", "11-09-1996", 74, 98, "Sagar", 99, 85, 89, 445 }
+                    { "11A123", "XI", "11-09-1996", "Mugesh" },
+                    { "11A124", "XI", "11-09-1996", "Prakash" },
+                    { "11A125", "XI", "11-09-1996", "Sagar" }
                 });
         }
 

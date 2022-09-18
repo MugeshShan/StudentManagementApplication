@@ -8,7 +8,7 @@ namespace StudentManagement.Models.Dtos
 {
     public class StudentMarkUpdateDto
     {
-        public int RollNumber { get; set; }
+        public string? RollNumber { get; set; }
         public int Tamil { get; set; }
         public int English { get; set; }
         public int Maths { get; set; }

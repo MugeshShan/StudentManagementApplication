@@ -8,7 +8,7 @@ namespace StudentManagement.Models.Dtos
 {
     public class StudentToAddDto
     {
-        public string Name { get; set; } = null!;
+        public string? Name { get; set; } = null!;
         public string Class { get; set; } = null!;
         public string Dob { get; set; } = null!;
         public int Tamil { get; set; }

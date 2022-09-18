@@ -19,39 +19,21 @@ namespace StudentManagement.Api.Data
                 RollNumber = "11A123",
                 Name = "Mugesh",
                 Class = "XI",
-                Dob = "11-09-1996",
-                Tamil = 89,
-                English = 74,
-                Maths = 98,
-                Science = 99,
-                Social = 85,
-                TotalMarks = 445
+                Dob = "11-09-1996"
             });
             modelBuilder.Entity<Student>().HasData(new Student
             {
                 RollNumber = "11A124",
                 Name = "Prakash",
                 Class = "XI",
-                Dob = "11-09-1996",
-                Tamil = 89,
-                English = 74,
-                Maths = 98,
-                Science = 99,
-                Social = 85,
-                TotalMarks = 445
+                Dob = "11-09-1996"
             });
             modelBuilder.Entity<Student>().HasData(new Student
             {
                 RollNumber = "11A125",
                 Name = "Sagar",
                 Class = "XI",
-                Dob = "11-09-1996",
-                Tamil = 89,
-                English = 74,
-                Maths = 98,
-                Science = 99,
-                Social = 85,
-                TotalMarks = 445
+                Dob = "11-09-1996"
             });
 
             modelBuilder.Entity<StudentMarks>().HasData(new StudentMarks

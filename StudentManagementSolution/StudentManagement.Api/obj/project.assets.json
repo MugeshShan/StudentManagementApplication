@@ -705,6 +705,16 @@
             "rid": "win"
           }
         }
+      },
+      "StudentManagement.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StudentManagement.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudentManagement.Models.dll": {}
+        }
       }
     }
   },
@@ -2051,12 +2061,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "StudentManagement.Models/1.0.0": {
+      "type": "project",
+      "path": "../StudentManagement.Models/StudentManagement.Models.csproj",
+      "msbuildProject": "../StudentManagement.Models/StudentManagement.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.9",
+      "StudentManagement.Models >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2091,7 +2107,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Models\\StudentManagement.Models.csproj": {
+              "projectPath": "C:\\Projects\\Student Management Application\\StudentManagementApplication\\StudentManagementSolution\\StudentManagement.Models\\StudentManagement.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
