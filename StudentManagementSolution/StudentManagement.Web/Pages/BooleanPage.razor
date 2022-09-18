@@ -1,7 +1,7 @@
 ﻿@page "/booleanPage"
 
-<div class="form-group col-md-2">
-    <label>Boolean Selection Page</label>
+<div class="form-group col-md-6">
+    <h3>Boolean Selection Page</h3>
     <div>
         <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" @onchange="@(() => Yes())">
@@ -11,25 +11,26 @@
             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" @onchange="@(() => No())">
             <label class="form-check-label" for="inlineRadio2">No</label>
         </div>
+        <br/>
     </div>
 </div>
 
 @if(YesPressed == null)
 {
     <div class="form-group col-md-2">
-        <label>Clicked Nothing</label>
+        <h5>Clicked <b>Nothing</b></h5>
     </div>
 }
 else if (Convert.ToBoolean(YesPressed))
 {
     <div class="form-group col-md-2">
-        <label>Clicked Yes</label>
+        <h5>Clicked <b>Yes</b></h5>
     </div>
 }
 else
 {
     <div class="form-group col-md-2">
-        <label>Clicked No</label>
+        <h5>Clicked <b>No</b></h5>
     </div>
 }
 
