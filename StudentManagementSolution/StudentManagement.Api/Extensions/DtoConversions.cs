@@ -29,9 +29,9 @@ namespace StudentManagement.Api.Extensions
             };
         }
 
-        public static StudentMarkUpdateDto ConvertToDto(this StudentMarks student)
+        public static StudentMarkDto ConvertToDto(this StudentMarks student)
         {
-            return new StudentMarkUpdateDto
+            return new StudentMarkDto
             {
                 RollNumber = student.RollNumber,
                 Tamil = student.Tamil,

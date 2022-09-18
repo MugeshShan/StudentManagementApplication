@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StudentManagement.Models.Dtos
 {
-    public class StudentMarkUpdateDto
+    public class StudentMarkDto
     {
         public string? RollNumber { get; set; }
         public int Tamil { get; set; }

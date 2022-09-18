@@ -67,7 +67,7 @@ namespace StudentManagement.Api.Controllers
         }
 
         [HttpGet("{id}/marks")]
-        public async Task<ActionResult<StudentDto>> GetStudentMarksById(string id)
+        public async Task<ActionResult<StudentMarkDto>> GetStudentMarksById(string id)
         {
             try
             {

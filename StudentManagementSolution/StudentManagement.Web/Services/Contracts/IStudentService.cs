@@ -8,6 +8,6 @@ namespace StudentManagement.Web.Services.Contracts
 
         Task<StudentDto> GetStudentDetailsById(string studentId);
 
-        Task<StudentMarkUpdateDto> GetStudentMarksById(int? studentId);
+        Task<StudentMarkDto> GetStudentMarksById(string studentId);
     }
 }

@@ -22,9 +22,11 @@ namespace StudentManagement.Web.Services
             return response;
         }
 
-        public Task<StudentMarkUpdateDto> GetStudentMarksById(int? studentId)
+        public async Task<StudentMarkDto> GetStudentMarksById(string studentId)
         {
-            throw new NotImplementedException();
+            var response = await this.httpClient.GetFromJsonAsync<StudentMarkDto>("api/Student/" + studentId + "/marks");
+
+            return response;
         }
 
         public async Task<IEnumerable<StudentDto>> GetStudentsDetailsInfo()
