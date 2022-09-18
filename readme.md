@@ -15,6 +15,7 @@
 - Open the StudentManagementSolution
 - Right Click the solution -> Properties -> Multiple StartupProjects.
 - Change "Action" of StudentManagement.Api and StudentManagement.Web to "Start".
+- Restore nuget packages.
 - Clean and Rebuild the solution
 
 
