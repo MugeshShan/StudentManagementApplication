@@ -2,8 +2,9 @@
 
 1. Please install SSMS.
 2. Please install SQL server express (https://www.microsoft.com/en-in/sql-server/sql-server-downloads)
+3. Clone the repo by using this command "git clone https://github.com/MugeshShan/StudentManagementApplication.git"
 
-## Create DB
+##Create DB
 
 - To Create a DB, please run the script in the DB Scripts folder.
 
@@ -24,5 +25,5 @@
 
 ## Note
 
-- Please make sure Blazor UI base address and Program.cs in StudentManagement.Api line 28 shoule be same. If not pleae change.
-- Please make sure Swagger Url base address and Program.cs in StudentManagement.Web line 11 shoule be same. If not pleae change.
+- Please make sure Blazor UI base address and Program.cs in "StudentManagement.Api" line 28 shoule be same. If not pleae change.
+- Please make sure Swagger Url base address and Program.cs in "StudentManagement.Web" line 11 shoule be same. If not pleae change.
