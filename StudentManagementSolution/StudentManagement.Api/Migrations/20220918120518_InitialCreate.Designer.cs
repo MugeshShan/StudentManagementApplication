@@ -11,8 +11,8 @@ using StudentManagement.Api.Data;
 namespace StudentManagement.Api.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    [Migration("20220918114722_InitalCreate")]
-    partial class InitalCreate
+    [Migration("20220918120518_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -25,11 +25,8 @@ namespace StudentManagement.Api.Migrations
 
             modelBuilder.Entity("StudentManagement.Api.Entities.Student", b =>
                 {
-                    b.Property<int>("RollNumber")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RollNumber"), 1L, 1);
+                    b.Property<string>("RollNumber")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Class")
                         .IsRequired()
@@ -68,7 +65,7 @@ namespace StudentManagement.Api.Migrations
                     b.HasData(
                         new
                         {
-                            RollNumber = 1,
+                            RollNumber = "11A123",
                             Class = "XI",
                             Dob = "11-09-1996",
                             English = 74,
@@ -81,7 +78,7 @@ namespace StudentManagement.Api.Migrations
                         },
                         new
                         {
-                            RollNumber = 2,
+                            RollNumber = "11A124",
                             Class = "XI",
                             Dob = "11-09-1996",
                             English = 74,
@@ -94,12 +91,81 @@ namespace StudentManagement.Api.Migrations
                         },
                         new
                         {
-                            RollNumber = 3,
+                            RollNumber = "11A125",
                             Class = "XI",
                             Dob = "11-09-1996",
                             English = 74,
                             Maths = 98,
                             Name = "Sagar",
+                            Science = 99,
+                            Social = 85,
+                            Tamil = 89,
+                            TotalMarks = 445
+                        });
+                });
+
+            modelBuilder.Entity("StudentManagement.Api.Entities.StudentMarks", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("English")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Maths")
+                        .HasColumnType("int");
+
+                    b.Property<string>("RollNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Science")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Social")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Tamil")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TotalMarks")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StudentMarks");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            English = 74,
+                            Maths = 98,
+                            RollNumber = "11A123",
+                            Science = 99,
+                            Social = 85,
+                            Tamil = 0,
+                            TotalMarks = 445
+                        },
+                        new
+                        {
+                            Id = 2,
+                            English = 74,
+                            Maths = 98,
+                            RollNumber = "11A124",
+                            Science = 99,
+                            Social = 85,
+                            Tamil = 89,
+                            TotalMarks = 445
+                        },
+                        new
+                        {
+                            Id = 3,
+                            English = 74,
+                            Maths = 98,
+                            RollNumber = "11A125",
                             Science = 99,
                             Social = 85,
                             Tamil = 89,

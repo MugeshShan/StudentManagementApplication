@@ -1,14 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace StudentManagement.Api.Entities
 {
-    public class Student
+    public class StudentMarks
     {
-        [Key]
+        public int Id { get; set; }
+        [ForeignKey("RollNumber")]
         public string? RollNumber { get; set; }
-        public string Name { get; set; } = null!;
-        public string Class { get; set; } = null!;
-        public string Dob { get; set; } = null!;
         public int Tamil { get; set; }
         public int English { get; set; }
         public int Maths { get; set; }

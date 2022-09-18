@@ -813,6 +813,15 @@ C:\Projects\Student Management Application\StudentManagementSolution\StudentMana
 C:\Projects\Student Management Application\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\refint\StudentManagement.Web.dll
 C:\Projects\Student Management Application\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\StudentManagement.Web.pdb
 C:\Projects\Student Management Application\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\ref\StudentManagement.Web.dll
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Data.Common.dll
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Private.Xml.dll
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Runtime.Extensions.dll
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Runtime.Handles.dll
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\build-gz\0WLtq5Ka.gz
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.7.vthb3kf4vs.js
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
@@ -850,6 +859,8 @@ C:\Projects\Student Management Application\StudentManagementApplication\StudentM
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\mscorlib.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\StudentManagement.Web.dll
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\StudentManagement.Web.pdb
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.AppContext.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Concurrent.dll
@@ -1074,6 +1085,7 @@ C:\Projects\Student Management Application\StudentManagementApplication\StudentM
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Xml.dll.gz
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\StudentManagement.Web.pdb.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll.gz
@@ -1157,6 +1169,7 @@ C:\Projects\Student Management Application\StudentManagementApplication\StudentM
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Data.Common.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
+C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\StudentManagement.Web.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Numerics.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
@@ -1207,11 +1220,6 @@ C:\Projects\Student Management Application\StudentManagementApplication\StudentM
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.ServiceModel.Web.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\StudentManagement.Web.dll
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\StudentManagement.Web.pdb
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\StudentManagement.Web.pdb.gz
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\wwwroot\_framework\StudentManagement.Web.dll.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\StudentManagement.Web.staticwebassets.runtime.json
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\StudentManagement.Web.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\StudentManagement.Web.pdb
@@ -1228,10 +1236,8 @@ C:\Projects\Student Management Application\StudentManagementApplication\StudentM
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
@@ -1259,7 +1265,6 @@ C:\Projects\Student Management Application\StudentManagementApplication\StudentM
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Configuration.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Console.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Core.dll
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Data.Common.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Data.DataSetExtensions.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Data.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Diagnostics.Contracts.dll
@@ -1325,7 +1330,6 @@ C:\Projects\Student Management Application\StudentManagementApplication\StudentM
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Private.Runtime.InteropServices.JavaScript.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Private.Uri.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Private.Xml.Linq.dll
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Private.Xml.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Reflection.DispatchProxy.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Reflection.Emit.ILGeneration.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Reflection.Emit.Lightweight.dll
@@ -1340,9 +1344,6 @@ C:\Projects\Student Management Application\StudentManagementApplication\StudentM
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Resources.Writer.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Runtime.CompilerServices.VisualC.dll
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Runtime.Extensions.dll
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Runtime.Handles.dll
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Runtime.InteropServices.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Runtime.Intrinsics.dll
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\bin\Debug\net6.0\System.Runtime.Loader.dll
@@ -1421,7 +1422,6 @@ C:\Projects\Student Management Application\StudentManagementApplication\StudentM
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\build-gz\+P1GRAn0.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\build-gz\HLVXcJOT.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\build-gz\yuld34yZ.gz
-C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\build-gz\0WLtq5Ka.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\build-gz\NxUikMv8.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\build-gz\od3qToad.gz
 C:\Projects\Student Management Application\StudentManagementApplication\StudentManagementSolution\StudentManagement.Web\obj\Debug\net6.0\build-gz\1ZMsurm3.gz

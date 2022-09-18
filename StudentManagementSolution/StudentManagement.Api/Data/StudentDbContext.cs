@@ -16,7 +16,7 @@ namespace StudentManagement.Api.Data
 
             modelBuilder.Entity<Student>().HasData(new Student
             {
-                RollNumber = 1,
+                RollNumber = "11A123",
                 Name = "Mugesh",
                 Class = "XI",
                 Dob = "11-09-1996",
@@ -29,7 +29,7 @@ namespace StudentManagement.Api.Data
             });
             modelBuilder.Entity<Student>().HasData(new Student
             {
-                RollNumber = 2,
+                RollNumber = "11A124",
                 Name = "Prakash",
                 Class = "XI",
                 Dob = "11-09-1996",
@@ -42,7 +42,7 @@ namespace StudentManagement.Api.Data
             });
             modelBuilder.Entity<Student>().HasData(new Student
             {
-                RollNumber = 3,
+                RollNumber = "11A125",
                 Name = "Sagar",
                 Class = "XI",
                 Dob = "11-09-1996",
@@ -53,8 +53,44 @@ namespace StudentManagement.Api.Data
                 Social = 85,
                 TotalMarks = 445
             });
+
+            modelBuilder.Entity<StudentMarks>().HasData(new StudentMarks
+            {
+                RollNumber = "11A123",
+                Id = 1,
+                English = 74,
+                Maths = 98,
+                Science = 99,
+                Social = 85,
+                TotalMarks = 445
+            });
+            modelBuilder.Entity<StudentMarks>().HasData(new StudentMarks
+            {
+                RollNumber = "11A124",
+                Id=2,
+                Tamil = 89,
+                English = 74,
+                Maths = 98,
+                Science = 99,
+                Social = 85,
+                TotalMarks = 445
+            });
+
+            modelBuilder.Entity<StudentMarks>().HasData(new StudentMarks
+            {
+                RollNumber = "11A125",
+                Id=3,
+                Tamil = 89,
+                English = 74,
+                Maths = 98,
+                Science = 99,
+                Social = 85,
+                TotalMarks = 445
+            });
         }
 
-        public Microsoft.EntityFrameworkCore.DbSet<Student> Students { get; set; }
+        public DbSet<Student> Students { get; set; }
+
+        public DbSet<StudentMarks> StudentMarks { get; set;}
     }
 }
