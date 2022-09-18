@@ -12,7 +12,6 @@ else if(ErrorMessage != null)
 }
 else
 {
-    var studentCount = Students.Count();
     <table width="100%" style="background:#0A2464;color:honeydew">
         <tr>
             <td width="20">&nbsp;</td>
@@ -32,27 +31,12 @@ else
     }
     else
     {
-        <div class="mb-3">
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="id" id="details" value="1"/>
-                <label class="form-check-label" for="details-id">Details By Id</label>
-            </div>
-             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="id" id="marks" value="2"/>
-                <label class="form-check-label" for="details-id">Marks By Id</label>
-            </div>
-        </div>
-        <div class="mb-3">
-            <input class="form-control" type="text" name="marks-id" id="id" placeholder="Please enter roll number"/>
-        </div>
-        <button type="submit" class="btn btn-primary">Get</button>
         <table class="table">
             <thead>
                 <tr>
                     <th>Student ID</th>
                     <th>Student Name</th>
                     <th>Class</th>
-                    <th>DOB</th>
                 </tr>
             </thead>
             <tbody>
@@ -62,7 +46,7 @@ else
                         <td>@std.RollNumber</td>
                         <td>@std.Name</td>
                         <td>@std.Class</td>
-                        <td>@std.Dob</td>
+                        <td><a href="/@std.RollNumber">Id</a></td>
                         @*<td><button class="btn btn-primary" onclick="@(async () => await EditStudent(@std.StdId))" style="width:110px;">Edit</button></td>*@
                         @*<td><button class="btn btn-danger" onclick="@(async () => await DeleteStudent(@std.StdId))">Delete</button></td>*@
                     </tr>

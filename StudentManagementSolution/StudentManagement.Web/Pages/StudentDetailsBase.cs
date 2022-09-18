@@ -7,7 +7,7 @@ namespace StudentManagement.Web.Pages
     public class StudentDetailsBase : ComponentBase
     {
         [Parameter]
-        public string Id { get; set; }
+        public string id { get; set; }
 
         [Inject]
         public IStudentService StudentService { get; set; }
@@ -20,7 +20,7 @@ namespace StudentManagement.Web.Pages
         {
             try
             {
-                Student = await StudentService.GetStudentDetailsById(Id);
+                Student = await StudentService.GetStudentDetailsById(id);
             }
             catch (Exception ex)
             {

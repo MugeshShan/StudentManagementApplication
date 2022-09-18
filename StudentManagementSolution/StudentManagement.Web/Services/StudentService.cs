@@ -13,9 +13,13 @@ namespace StudentManagement.Web.Services
             this.httpClient = httpClient;
         }
 
-        public Task<StudentDto> GetStudentDetailsById(string studentId)
+        public async Task<StudentDto> GetStudentDetailsById(string studentId)
         {
-            throw new NotImplementedException();
+            var response = await this.httpClient.GetFromJsonAsync<StudentDto>("api/Student/" + studentId);
+
+           
+
+            return response;
         }
 
         public Task<StudentMarkUpdateDto> GetStudentMarksById(int? studentId)
